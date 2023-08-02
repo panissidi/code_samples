@@ -1,0 +1,121 @@
+/**
+ * This CSS code styles the appearance of the XML document about baseball cards.
+ *
+ * @selector baseball_cards
+ *
+ * @property color
+ * @value black
+ * @description This property sets the text color for the entire document to black.
+ *
+ * @property background-color
+ * @value white
+ * @description This property sets the background color for the entire document to white.
+ */
+baseball_cards {
+  color: black;
+  background-color: white;
+}
+
+/**
+ * @selector year
+ *
+ * @property font-size
+ * @value 26px
+ * @description This property sets the font size of the year element to 26px.
+ *
+ * @property border-style
+ * @value solid
+ * @description This property sets the border style of the year element to solid.
+ *
+ * @property text-align
+ * @value center
+ * @description This property sets the text alignment of the year element to center.
+ */
+year {
+  font-size: 26px;
+  border-style: solid;
+  text-align: center;
+}
+
+/**
+ * @selector brand
+ *
+ * @property font-size
+ * @value 20px
+ * @description This property sets the font size of the brand element to 20px.
+ *
+ * @property border-style
+ * @value solid
+ * @description This property sets the border style of the brand element to solid.
+ *
+ * @property text-align
+ * @value center
+ * @description This property sets the text alignment of the brand element to center.
+ */
+brand {
+  font-size: 20px;
+  border-style: solid;
+  text-align: center;
+}
+
+/**
+ * @selector series
+ *
+ * @property font-size
+ * @value 16px
+ * @description This property sets the font size of the series element to 16px.
+ *
+ * @property border-style
+ * @value solid
+ * @description This property sets the border style of the series element to solid.
+ *
+ * @property text-align
+ * @value center
+ * @description This property sets the text alignment of the series element to center.
+ */
+series {
+  font-size: 16px;
+  border-style: solid;
+  text-align: center;
+}
+
+/**
+ * @selector card
+ *
+ * @property font-size
+ * @value 14px
+ * @description This property sets the font size of the card element to 14px.
+ *
+ * @property border-style
+ * @value solid
+ * @description This property sets the border style of the card element to solid.
+ *
+ * @property text-align
+ * @value center
+ * @description This property sets the text alignment of the card element to center.
+ */
+card {
+  font-size: 14px;
+  border-style: solid;
+  text-align: center;
+}
+
+/**
+ * @selector year, brand, series, card
+ * @property display
+ * @value block
+ * @description This property sets the display of the year, brand, series, and card elements to block.
+ */
+year, brand, series, card {
+  display: block;
+}
+
+/**
+ * @selector player, team, number, features, quantity
+ * @property display
+ * @value block
+ * @description This property sets the display of the player, team, number, features, and quantity elements to block.
+ */
+player, team, number, features, quantity {
+  display: block;
+}

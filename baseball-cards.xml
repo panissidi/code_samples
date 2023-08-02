@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The CSS that styles this document when opened in a browser. -->
+<?xml-stylesheet type="text/css" href="baseball-cards.css"?>
+
+<!-- This is the DTD. -->
+<!DOCTYPE baseball_cards
+[
+<!ELEMENT baseball_cards (year+, brand+, series+, card+)>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT brand (#PCDATA)>
+  <!ELEMENT series (#PCDATA)>
+  <!ATTLIST series release CDATA #IMPLIED>
+  <!ELEMENT card (player*, team*, number, features*, quantity)>
+    <!ELEMENT player (#PCDATA)>
+    <!ELEMENT team (#PCDATA)>
+    <!ATTLIST team league (American | National) #REQUIRED>
+    <!ELEMENT number (#PCDATA)>
+    <!ELEMENT features (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+]>
+
+<!-- This is the root element of the document. -->
+<baseball_cards>
+  <!-- The year that the card was released. -->
+  <year>2023</year>
+  <!-- The brand of the card. -->
+  <brand>Topps</brand>
+  <!-- The release to which the card belongs. -->
+  <series release="Series 2">Flagship</series>
+  <!-- The card details, including the player, team, number, features, and quantity. -->
+  <card>
+    <player>Anthony Volpe</player>
+    <team league="American">New York Yankees</team>
+    <number>460</number>
+    <features>Rookie card</features>
+    <quantity>1</quantity>
+  </card>
+</baseball_cards>
