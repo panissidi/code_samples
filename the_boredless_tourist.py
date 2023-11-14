@@ -1,4 +1,4 @@
-#Created a program that lets users enter their locations, and discover nearby attractions.
+#Created a program that lets users enter their locations and discover nearby attractions.
 
 # Stores cities and their countries.
 destinations = ["Paris, France", "Shanghai, China", "Los Angeles, USA", "São Paulo, Brazil", "Cairo, Egypt"]
